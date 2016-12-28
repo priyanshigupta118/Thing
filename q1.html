@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Winnie 1.0 Q1</title>
+
+    <script type='text/javascript'>
+
+        function validateForm()
+        {
+
+            var x = document.getElementById('ans').value;
+
+            if (x == 'zootopia')
+            {
+                alert("Aww yeahhh");
+                location.href ='C:/Users/Acer/Documents/Project/q2.html';
+
+            }
+            else {	alert("nyope");}
+        }
+
+
+    </script>
+
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: verdana;
+            font-size: 40px;
+        }
+
+        img {
+            height: 200px;
+            width: 200px;
+            align:centre;
+        }
+
+        h4 {
+            font-family: verdana;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<form name="q1" action="" method="post" onsubmit="return (validateForm()); return false;">
+
+    <h2> Question 1</h2>
+
+    <!img src="C:\Users\Acer\Downloads\plane.jpg" alt="question1">
+
+    <h4> Word: The only time I didn't pay attention to animals</h4>
+
+    Answer:  <input type="text" name="answer" id="ans"></input>
+    <br> <br>
+
+    <input name="commit" type="submit" value="Okay!" />
+
+</form>
+
+</body>
+</html>
